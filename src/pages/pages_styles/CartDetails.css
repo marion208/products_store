@@ -1,0 +1,25 @@
+.CartDetailsPage {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.cart_products_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    min-height: 90vh;
+    align-self: center;
+    min-width: 50vw;
+}
+.total_cart_container {
+    box-shadow: 1px 1px 10px 5px rgb(218 210 210);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    border: solid 1px rgb(218 210 210);
+    text-align: right;
+}
+.text_total_cart {
+    font-weight: bold;
+}

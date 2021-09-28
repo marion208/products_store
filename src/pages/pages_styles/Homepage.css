@@ -1,0 +1,11 @@
+.Homepage {
+    min-height: 100vh;
+}
+.products_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    align-items: center;
+    min-height: 90vh;
+    flex-wrap: wrap;
+}

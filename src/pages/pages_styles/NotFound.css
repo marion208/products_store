@@ -1,0 +1,43 @@
+.NotFoundPage {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_not_found {
+    background-color: rgba(255,255,255,0.75);
+    border-radius: 10px;
+    padding: 10px 30px;
+    min-height: 25vh;
+    min-width: 25vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px rgb(100,100,100);
+}
+.icon_compass {
+    font-size: 5em;
+    -webkit-animation:spin 3s linear infinite;
+    -moz-animation:spin 3s linear infinite;
+    animation:spin 3s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    } 
+}
+@-webkit-keyframes spin {
+     100% {
+        -webkit-transform: rotate(360deg);
+    } 
+}
+@keyframes spin {
+     100% {
+        -webkit-transform: rotate(360deg);
+        transform:rotate(360deg);
+    } 
+}

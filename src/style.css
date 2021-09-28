@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Orbitron-Regular";
+    src: url("./fonts/Orbitron-Regular.ttf");
+}
+body {
+    margin: 0;
+    font-family: "Orbitron-Regular";
+}

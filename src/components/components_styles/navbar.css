@@ -1,0 +1,33 @@
+.navbar {
+    background-color: rgb(218 210 210);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.navbar > a {
+    color: black;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+.link_cart {
+    display: flex;
+    align-items: center;
+}
+.icon_cart {
+    color: black;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 5px;
+}
+#sum_qty_cart {
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+    min-width: 30px;
+    text-align: center;
+    font-size: 0.9em;
+}
